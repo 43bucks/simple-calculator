@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.wrap {
+    width: 400px;
+    margin:auto;
+    height: auto;
+    background:linear-gradient(90deg, rgb(9, 12, 219)0%, rgb(214, 8, 233)56%, rgb(15, 209, 235)100%);
+    padding: 15px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
+    border-radius: 9px;
+    background: linear-gradient(90deg, rgba(21, 92, 19, 0.815)0%, rgb(83, 238, 11)45%, rgb(238, 241, 14));
+}
+
+input[type=button] {
+    width: 85px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: chartreuse;
+    background: linear-gradient(90deg, rgb(211, 8, 211)0%, rgb(7, 114, 214)50%, rgb(7, 233, 233));
+}
+
+#del {
+    width: 100px;
+}
